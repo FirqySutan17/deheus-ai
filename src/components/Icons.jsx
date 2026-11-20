@@ -5,7 +5,12 @@ const names = {
   BookOpen: 'menu_book', Copy: 'content_copy', HelpCircle: 'help_outline', Menu: 'menu', MessageCircle: 'chat_bubble_outline',
   MessageSquare: 'chat_bubble', MoreHorizontal: 'more_horiz', Plus: 'add', Search: 'search', Send: 'send',
   Settings: 'settings', ShieldCheck: 'verified_user', Sparkles: 'auto_awesome', ThumbsDown: 'thumb_down',
-  ThumbsUp: 'thumb_up', TrendingUp: 'trending_up', X: 'close'
+  ThumbsUp: 'thumb_up', TrendingUp: 'trending_up', X: 'close',
+  Eye: 'visibility',
+  EyeOff: 'visibility_off',
+  LockKeyhole: 'lock',
+  Mail: 'mail',
+  ArrowRight: 'arrow_forward',
 }
 
 export function makeIcon(componentName) {
@@ -35,3 +40,8 @@ export const ThumbsDown = makeIcon('ThumbsDown')
 export const ThumbsUp = makeIcon('ThumbsUp')
 export const TrendingUp = makeIcon('TrendingUp')
 export const X = makeIcon('X')
+export const Eye = makeIcon('Eye')
+export const EyeOff = makeIcon('EyeOff')
+export const LockKeyhole = makeIcon('LockKeyhole')
+export const Mail = makeIcon('Mail')
+export const ArrowRight = makeIcon('ArrowRight')
